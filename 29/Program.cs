@@ -13,19 +13,13 @@ array[i] = rnd.Next(0,55);
 }
 }
 void PrintArrau(int[]arr){
- for(int i= 0; i<arr.Length;i++)
-   { 
-    Console.Write( i +",");
-    }
-Console.Write( "->  ");
+
+Console.Write( "Результат: ");
    for(int i= 0; i<arr.Length;i++)
    { 
     Console.Write($"{array[i]} ");
     }
    
-
-
-
 }
 RandArray(array);
 PrintArrau(array);
